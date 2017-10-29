@@ -6,5 +6,45 @@
 </head>
 <body>
 
+<script>
+    window.onload=function(){
+        var str='liwenfei';
+        var newstr='';
+//        方法一
+//       function reverse(str){
+//           for(var i=0;i<str.length;i++){
+//               newstr=str.charAt(i)+newstr;
+//           }
+//           return newstr;
+//       }
+//       console.log(reverse(str));
+//    }
+
+//        方法二
+//        function reverse(str){
+//            if(str.length===1){
+//                return str;
+//            }
+//            return str.slice(-1)+reverse(str.slice(0,-1));
+//        }
+//        console.log(reverse(str));
+
+//        方法三
+//        function reverse(str) {
+//            return str.split('').reduce((prev, next) => next + prev);
+//        }
+//        console.log(reverse(str));
+
+//        方法四
+        function reverse(str) {
+            return str
+                .split('')
+                .reverse()
+                .join('')
+        }
+        console.log(reverse(str));
+
+    }
+</script>
 </body>
 </html>

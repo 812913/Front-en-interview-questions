@@ -1,4 +1,4 @@
 1、对于数组，用的最多的方法有哪些？<br/>
-（tip：基本都知道 concat，join 方法，如果能正确区分 slice，splice 传对参数的话，可以过滤出部分人，能熟练使用 map，reduce，filter 还能道出 map 和 for 的区别的话，又能过滤掉一部分人，如果面试者还能继续扩展，由 map，reduce，filter 引申到函数式编程的话，那就可以聊一些更深入的话题了。）
+（tip：基本都知道 concat，join 方法，如果能正确区分 slice，splice 传对参数的话，可以过滤出部分人，能熟练使用 map，reduce，filter 还能道出 map 和 for 的区别的话，又能过滤掉一部分人，如果面试者还能继续扩展，由 map，reduce，filter 引申到函数式编程的话，那就可以聊一些更深入的话题了。）<br/>
 2、字符串反转
-（参考链接：）
+（参考链接：<a href="http://blog.csdn.net/liwenfei123/article/details/78385946">前端面试常见问题——字符串反转</a>）
